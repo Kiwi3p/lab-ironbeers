@@ -1,0 +1,10 @@
+<div class="header">
+    <h1>Random Beers</h1>
+</div>
+<div class="container-random">
+    <div class="row">
+        {{#each responseFromApi}}
+            {{> beerpartial}}
+        {{/each}}
+    </div>
+</div>

@@ -1,0 +1,21 @@
+{{!-- views HBS files should be camel case named --}}
+
+
+  <div class="goods">
+    <img
+      class="top"
+      src="{{image_url}}"
+      alt=""
+    />
+    <div class="random-body">
+      <h5 class="title">{{name}}</h5>
+      <p class="text">{{tagline}}</p>
+      <h4 class="title">{{description}}</h4>
+      <ul>
+            {{#each food_pairing}}
+                <li>{{this}}</li>
+            {{/each}}
+        </ul>
+      <p class="brewer-text">{{brewers_tips}}</p>
+    </div>
+  </div>

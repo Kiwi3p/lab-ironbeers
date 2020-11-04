@@ -5,3 +5,127 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+.col-md-4 {
+    border: none;
+}
+
+.card-img-top {
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+
+}
+
+h1 {
+    display: flex;
+    align-items: center; 
+    text-align: center;
+}
+
+body {
+    background-color: rgb(202, 202, 202);
+}
+
+footer {
+    background-color: #6c9aff;
+}
+
+/* random beers CSS */
+
+.header {
+    margin: 20px 500px;
+    display: flex;
+    align-items: center;
+}
+
+.container-random {
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto;
+}
+
+.top {
+    
+    height: 30%;
+    padding: 20px;
+    margin: 40px 50px;
+}
+
+.goods {
+    display: flex;
+    flex-direction: row;
+    margin: 80px auto;
+    margin: 30px;
+}
+
+.random-body {
+    padding: 10px;
+    margin-top: 50px;
+    width: 70%;
+}
+
+.button-1 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: cornflowerblue;
+    width: 80%;
+    height: 20%;
+    text-align: center;
+    border-radius: 10%;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.button-1 a {
+    color: white;
+    font-size: 1.2em;
+}
+
+.button-2 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: cornflowerblue;
+    width: 80%;
+    height: 20%;
+    text-align: center;
+    border-radius: 10%;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.button-2 a {
+    color: white;
+    font-size: 1.2em;
+}
+
+.container-beer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 50px 500px;
+    padding: 20px;
+}
+
+.beer-image img {
+    width: 50%;
+    margin: 0 70px;
+}
